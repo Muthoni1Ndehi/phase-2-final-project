@@ -4,15 +4,64 @@
       "id": 1,
       "category": "food",
       "date": "3/09/2022",
-      "time": "10.04pm",
+      "time": "10.04am",
       "Activity":"Shop at the Grocery Store"
     },
     {
       "id": 2,
       "category": "food",
       "date": "3/09/2022",
-      "time": "10:15",
+      "time": "10:15am",
       "Activity":"Preserve the meat in the freezer"
+    },
+    {
+      "id": 3,
+      "category": "chores",
+      "date": "3/09/2022",
+      "time": "1:15pm",
+      "Activity":"clean up the house"
+    },
+    {
+      "id": 4,
+      "category": "chores",
+      "date": "3/09/2022",
+      "time": "4:15pm",
+      "Activity":"Walk the dog"
+    },
+    {
+      "id": 5,
+      "category": "Physical Activities",
+      "date": "3/09/2022",
+      "time": "6:15pm",
+      "Activity":"Yoga exercises"
+    },
+    {
+      "id": 6,
+      "category": "Software Development",
+      "date": "4/09/2022",
+      "time": "6:15am",
+      "Activity":"Learning Props"
+    },
+    {
+      "id": 7,
+      "category": "Software Development",
+      "date": "4/09/2022",
+      "time": "8:15am",
+      "Activity":"Attempt a lab"
+    },
+    {
+      "id": 8,
+      "category": "Software Development",
+      "date": "4/09/2022",
+      "time": "10:15am",
+      "Activity":"submit a code challenge"
+    },
+    {
+      "id": 9,
+      "category": "Software Development",
+      "date": "4/09/2022",
+      "time": "10:15am",
+      "Activity":"submit a code challenge"
     }
   ]
 }
