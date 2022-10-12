@@ -3,7 +3,7 @@ import React from 'react'
 function ListActivities({list}) {
   return (
     <div>
-      <tr>
+      <tr className='row'>
       <th>Activity</th>
       <th>Category</th>
       <th>Date</th>

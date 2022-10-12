@@ -4,7 +4,7 @@ import ListActivities from './ListActivities'
 function HomePage({todo}) {
   console.log(todo)
   const listTodo=todo.map((everyTodo)=>(
-    <tr>
+    <tr >
       <td>{everyTodo.Activity}</td>
        <td>{everyTodo.category}</td>
        <td>{everyTodo.date}</td>
@@ -13,7 +13,7 @@ function HomePage({todo}) {
   ))
 
   return (
-    <div>
+    <div className='table'>
 
       <ListActivities list={listTodo}/>
      

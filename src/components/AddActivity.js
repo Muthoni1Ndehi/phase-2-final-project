@@ -32,14 +32,13 @@ function AddActivity({ addTodo }) {
   }
   return (
     <div className='Daily activity'>
-      <form onSubmit={handleSubmit} className='Daily activity form'>
-        <div className='input'>
-         <label>DATE <input onChange={handleChange} type="date" name="date" /></label>
-         <label>CATEGORY <input onChange={handleChange} type="text" name="category" /></label>
-         <label>TIME<input onChange={handleChange} type="time" name="time" /></label>
-         <label>ACTIVITY <input onChange={handleChange} type="text" name="Activity" /></label>
-        </div>
-        <button className='Form Buttton' type="submit">
+      <form onSubmit={handleSubmit} className="form">
+         <label>DATE <input className='input' onChange={handleChange} type="date" name="date" /></label>
+         <label>CATEGORY <input className='input' onChange={handleChange} type="text" name="category" /></label>
+         <label>TIME<input className='input' onChange={handleChange} type="time" name="time" /></label>
+         <label>ACTIVITY <input className='input' onChange={handleChange} type="text" name="Activity" /></label>
+
+        <button className='button' type="submit">
           Add activity
         </button>
       </form>
